@@ -20,9 +20,15 @@ const Navigation = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="#" className="flex-shrink-0">
-            <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              {"</Dev>"}
+          <Link href="#" className="shrink-0">
+            <span className="text-xl font-bold">
+              <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+                {"<De"}
+              </span>
+              <span style={{ display: "inline-block", transform: "rotate(-35deg)", transformOrigin: "center", color: "#ffffff" }}>L</span>
+              <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+                {"eon>"}
+              </span>
             </span>
           </Link>
 
