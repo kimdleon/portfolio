@@ -1,5 +1,6 @@
 import { portfolioData } from "@/data/portfolio";
 import { ExternalLinkIcon, GitHubIcon } from "@/components/Icons";
+import { TechIcon } from "@/components/TechIcon";
 
 const ProjectsSection = () => {
   const { projects } = portfolioData;
@@ -55,14 +56,11 @@ const ProjectsSection = () => {
                 </p>
 
                 {/* Technologies */}
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-3 mb-4">
                   {project.technologies.map((tech, techIndex) => (
-                    <span
-                      key={techIndex}
-                      className="px-2 py-1 bg-slate-600/50 text-slate-300 rounded text-xs font-medium border border-slate-500/30"
-                    >
-                      {tech}
-                    </span>
+                    <div key={techIndex} className="text-slate-300 hover:text-blue-400 transition-colors" title={tech}>
+                      <TechIcon tech={tech} className="w-6 h-6" />
+                    </div>
                   ))}
                 </div>
 
