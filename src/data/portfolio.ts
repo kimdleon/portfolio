@@ -108,6 +108,23 @@ export const portfolioData: PortfolioData = {
       year: "2021",
     },
     {
+      title: "University Thesis Repository (URS)",
+      description:
+        "Full-stack web application for sharing and discovering academic research with role-based access control, modal authentication, and a professional landing page.",
+      highlights: [
+        "Modal-based login/registration system with JWT authentication",
+        "Browse and search approved theses with advanced filtering",
+        "Role-based dashboards for Students, Reviewers, and Admins",
+        "Submit and manage academic research submissions",
+        "Responsive design with professional landing page",
+        "REST API with comprehensive thesis management endpoints",
+      ],
+      technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma", "TailwindCSS", "JWT Auth"],
+      link: "https://thesisurs-backend.vercel.app",
+      image: "/thesisurs.png",
+      year: "2024",
+    },
+    {
       title: "Azure OpenAI Enterprise Integration",
       description:
         "Architected and deployed production-grade Azure OpenAI (GPT-4) applications for enterprise clients, enabling intelligent automation of complex business workflows.",
