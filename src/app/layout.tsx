@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     "Kim De Leon",
   ],
   authors: [{ name: "Kim De Leon" }],
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
