@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { SiFigma } from "react-icons/si";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,8 +39,17 @@ const Navigation = () => {
             ))}
           </div>
 
-          {/* Resume Button */}
-          <div className="hidden md:flex">
+          {/* Resume & Figma Buttons */}
+          <div className="hidden md:flex gap-3">
+            <a
+              href="https://www.figma.com/design/ff0sY4ddDd5d9n6WycPakY/Designs?node-id=0-1&p=f&t=LVDZRAXkX3EHNjGm-0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 text-slate-300 hover:text-cyan-400 transition-colors hover:bg-slate-800 rounded-lg"
+              title="Figma Design Portfolio"
+            >
+              <SiFigma className="w-5 h-5" />
+            </a>
             <a
               href="/Resume-KimDeLeon.pdf"
               target="_blank"
@@ -88,6 +98,15 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
+            <a
+              href="https://www.figma.com/design/ff0sY4ddDd5d9n6WycPakY/Designs?node-id=0-1&p=f&t=LVDZRAXkX3EHNjGm-0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-4 py-2 mt-2 text-slate-300 hover:text-cyan-400 hover:bg-slate-800 rounded-lg transition-colors"
+            >
+              <SiFigma className="w-4 h-4" />
+              Figma
+            </a>
             <a
               href="/Resume-KimDeLeon.pdf"
               target="_blank"
