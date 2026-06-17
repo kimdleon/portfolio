@@ -20,7 +20,7 @@ export const portfolioData: PortfolioData = {
     {
       title: "Senior Developer",
       company: "Transcosmos Asia Philippines",
-      period: "March 2024 - Present",
+      period: "March 2024 - May 2026",
       description:
         "Architecting and deploying Azure OpenAI (GPT-4) applications for enterprise clients. Engineering microservices infrastructure on AWS ECS, developing Chrome Extensions, and implementing Selenium-based test automation frameworks.",
       technologies: [
